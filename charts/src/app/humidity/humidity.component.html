@@ -1,0 +1,9 @@
+<button mat-flat-button 
+        color="primary"
+        (click)="downloadData()"
+        style="margin: 5px">    
+    Download Dataset
+</button>
+<div *ngIf="chart">
+    <canvas id="canvas">{{ chart }}</canvas>
+</div>

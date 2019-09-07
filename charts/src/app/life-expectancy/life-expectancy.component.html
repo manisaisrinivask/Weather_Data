@@ -1,0 +1,18 @@
+<button mat-flat-button 
+        color="primary"
+        (click)="downloadData()"
+        style="margin: 5px">
+    Download Dataset
+</button>
+<div *ngIf="chart">
+    <canvas id="canvas">{{ chart }}</canvas>
+</div>
+<mat-radio-group class="r-group"
+                 [(ngModel)]="selectedType"
+                 (change)="valueChanged($event)">
+  <mat-radio-button class="r-button" 
+                    *ngFor="let type of types" 
+                    [value]="type">
+    {{type}}
+  </mat-radio-button>
+</mat-radio-group>
