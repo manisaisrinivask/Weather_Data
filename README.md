@@ -1,18 +1,18 @@
 ## Aim
-:: Select one or more public static sources and one or more public dynamic/real-time sources in your
-project.\ 
+Select one or more public static sources and one or more public dynamic/real-time sources in your
+project.<br/>
 Import relevant data into a PostgreSQL database outfitted with the PostGIS extension. For real-time data
 feeds, setup some sort of polling mechanism to repeatedly pull new data. Make sure your ETL has any
-cleaning or normalizing required. \
+cleaning or normalizing required. <br/>
 Create a RESTful API Gateway (using something like Flask (Python) or Express/Koa/ActionHero
-(JS/Node))\
+(JS/Node))<br/>
 Create a visualization of the data you loaded that works in a browser. Make it responsive. Add some sort
 of interactivity, like a filter or some other UI element of your choice. And, a way to download the data in
-the visualization.
+the visualization. 
 
 ## About
 There are two components in this project.
-For the dynamin data I used the weather data from OpenWeatherMap API for the state of florida. I used Angular 7 for getting json data back from the api and rendering it on to the fromt end. \
+For the dynamin data I used the weather data from OpenWeatherMap API for the state of florida. I used Angular 7 for getting json data back from the api and rendering it on to the fromt end. <br/>
  For the staic data. I imported a csv file(https://github.com/manisaisrinivask/weather_data/blob/master/charts-server/life_expectancy.csv) into PostgreSql DB, Flask as a server and rendered it onto the frontend.
 
 
