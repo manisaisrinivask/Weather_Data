@@ -1,4 +1,4 @@
-## Aim
+## Use Case
 - Select one or more public static sources and one or more public dynamic/real-time sources in your
 project.<br/>
 - Import relevant data into a PostgreSQL database outfitted with the PostGIS extension. For real-time data
@@ -10,10 +10,10 @@ cleaning or normalizing required. <br/>
 of interactivity, like a filter or some other UI element of your choice. And, a way to download the data in
 the visualization. 
 
-## About
+## Getting Started
 There are two components in this project.<br/>
-- For the dynamin data I used the weather data from OpenWeatherMap API for the state of florida. I used Angular 7 for getting json data back from the api and rendering it on to the fromt end. <br/>
-- For the static data. I imported a csv file(https://github.com/manisaisrinivask/weather_data/blob/master/charts-server/life_expectancy.csv) into PostgreSQL DB, used Flask as a server and rendered it onto the frontend.
+- For the dynamic data, weather data is taken from OpenWeatherMap API for Florida City, Florida. <br/>
+- For the static data,a csv file(https://github.com/manisaisrinivask/weather_data/blob/master/charts-server/life_expectancy.csv) was used.
 
 
 ## Setup - Initial Packages Required
