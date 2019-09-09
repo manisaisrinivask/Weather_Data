@@ -16,13 +16,13 @@ There are two components in this project.<br/>
 - For the static data,a csv file(https://github.com/manisaisrinivask/weather_data/blob/master/charts-server/life_expectancy.csv) was used.
 
 
-## Setup - Initial Packages Required
+## Prerequisites/Commands
 -- install PostgreSQL
 -- install python 3+ 
 -- install nodejs
 -- npm install -g @angular/cli 
 
-## Setting/Running up individual components
+## Installing
 Step 1: PostgreSQL and PgAdmin 4:  Create a table with table name: life_death_rate and name the coloumns: Year(integer), Race(character varying), Sex(character varying), Average_Life_Expectancy) and import the csv file(marking header option) located in charts-server folder in the repo into your life_death_rate table. Change the password for your postgresDB in the database.ini file 
 
 Step 2: Packages/Commands for running server: You need to move to https://github.com/manisaisrinivask/weather_data/tree/master/charts-server on your local, then use the following commands for installing dependencies:
